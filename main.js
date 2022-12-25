@@ -3,6 +3,11 @@ import { OrbitControls } from "three/examples/jsm/controls/OrbitControls"
 import gsap from "gsap"
 import "./style.css"
 
+import stars1 from "./src/stars1.jpg"
+import stars2 from "./src/stars2.jpg"
+import stars3 from "./src/stars3.jpg"
+
+
 
 const canvas = document.querySelector(".webGL")
 let sizes = {
@@ -17,7 +22,8 @@ const camera = new THREE.PerspectiveCamera(45, sizes.width / sizes.height, 0.1, 
 camera.position.z = 18
 const renderer = new THREE.WebGLRenderer({ canvas });
 renderer.setSize( sizes.width, sizes.height ); 
-
+const textureLoader = new THREE.TextureLoader()
+scene.background = textureLoader.load(stars1)
 
 const geometry = new THREE.SphereGeometry(3, 64, 64)
 const material = new THREE.MeshStandardMaterial({
@@ -83,3 +89,4 @@ window.addEventListener('mousemove', (e) => {
     })
   }
 })
+
