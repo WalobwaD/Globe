@@ -7,7 +7,16 @@ import stars1 from "./src/stars1.jpg"
 import stars2 from "./src/stars2.jpg"
 import stars3 from "./src/stars3.jpg"
 
+import { GLTFLoader } from "three/examples/jsm/loaders/GLTFLoader"
+const gltfloader = new GLTFLoader()
+gltfloader.load('./src/assets/black_character/scene.gltf', (gltfScene) => {
+  // gltfScene.scene.rotate.y = Math.PI/8
+  gltfScene.scene.position.x = 9
+  gltfScene.scene.position.y = -1
 
+  gltfScene.scene.scale.set(2,2,2)
+  scene.add(gltfScene.scene)
+})
 let loader = document.getElementById("pre-loader")
 const canvas = document.querySelector(".webGL")
 let sizes = {
@@ -123,3 +132,19 @@ window.addEventListener('mousemove', (e) => {
 
 
 
+// create an AudioListener and add it to the camera
+const listener = new THREE.AudioListener();
+camera.add( listener );
+
+// create a global audio source
+const sound = new THREE.Audio( listener );
+
+// load a sound and set it as the Audio object's buffer
+const audioLoader = new THREE.AudioLoader();
+audioLoader.load( './src/assets/cinematic.mp3', function( buffer ) {
+	sound.setBuffer( buffer );
+  // sound.autoplay({true})
+	sound.setLoop( true );
+	sound.setVolume( 0.4 );
+	sound.play();
+});

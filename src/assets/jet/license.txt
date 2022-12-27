@@ -1,0 +1,11 @@
+Model Information:
+* title:	Destructor Pesado Finalizer/Heavy Destroy
+* source:	https://sketchfab.com/3d-models/destructor-pesado-finalizerheavy-destroy-e93804f2745b4d7c9eb8515c70945eb0
+* author:	doclusifer2 (https://sketchfab.com/doclusifer2)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Destructor Pesado Finalizer/Heavy Destroy" (https://sketchfab.com/3d-models/destructor-pesado-finalizerheavy-destroy-e93804f2745b4d7c9eb8515c70945eb0) by doclusifer2 (https://sketchfab.com/doclusifer2) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

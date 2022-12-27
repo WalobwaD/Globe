@@ -1,0 +1,11 @@
+Model Information:
+* title:	SWAT operator
+* source:	https://sketchfab.com/3d-models/swat-operator-9e82fabf26194896b5ad4a364d864eab
+* author:	Mateusz Woliński (https://sketchfab.com/jeandiz)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "SWAT operator" (https://sketchfab.com/3d-models/swat-operator-9e82fabf26194896b5ad4a364d864eab) by Mateusz Woliński (https://sketchfab.com/jeandiz) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
